@@ -28,17 +28,17 @@
         <!--Application cards -->
         <div class="grid md:grid-cols-3 mb-8 gap-6">
             <div class="bg-white rounded-lg p-6 shadow-sm border-[#F1F2F4]">
-                <p class="text-[#323B49]">Total</p>
+                <p id="total-count" class="text-[#323B49]">Total</p>
                 <h2 class="text-2xl text-[#002C5C] font-bold mt-5">0</h2>
             </div>
 
             <div class="bg-white rounded-lg p-6 shadow-sm border-[#F1F2F4]">
-                <p class="text-[#323B49]">Total</p>
+                <p id="interview-count" class="text-[#323B49]">Interview</p>
                 <h2 class="text-2xl text-[#10B981] font-bold mt-5">0</h2>
             </div>
 
             <div class="bg-white rounded-lg p-6 shadow-sm border-[#F1F2F4]">
-                <p class="text-[#323B49]">Total</p>
+                <p id="rejected-count" class="text-[#323B49]">Rejected</p>
                 <h2 class="text-2xl text-[#EF4444] font-bold mt-5">0</h2>
             </div>
 
@@ -55,11 +55,11 @@
         <div class="flex gap-5 mt-5">
             <button id="all" class="bg-[#3B82F6] text-white rounded-md px-8 py-2">All</button>
             <button id="interview" class="">Interview</button>
-            <button id="Rejected" class="">Rejected</button>
+            <button id="rejected" class="">Rejected</button>
         </div>
         <!-- card list -->
-        <div class="mt-5 flex flex-col gap-5">
-            <div class="flex flex-col gap-4 p-5 bg-white shadow-sm ">
+        <div id="card-list" class="mt-5 flex flex-col gap-5">
+            <!-- <div class="flex flex-col gap-4 p-5 bg-white shadow-sm ">
                 <div class="flex justify-between items-center">
                     <div>
                     <h2 class="text-2xl text-[#002C5C] font-semibold">Mobile First Corp</h2>
@@ -75,13 +75,15 @@
                     <li>$130,000 - $175,000</li>
                 </ul>
                 <p>Not Applied</p>
+                <p>Build cross-platform mobile applications using React Native. Work on products used by millions of users worldwide.</p>
                 <div class="flex gap-3">
                     <button class="px-5 py-2 border border-[#10B981] text-[#10B981] font-semibold rounded-md">interview</button>
                     <button class="px-5 py-2 border border-[#EF4444] text-[#EF4444] font-semibold rounded-md">Rejected</button>
                 </div>
-            </div>
+            </div> -->
         </div>
      </div>
     
+     <script src="index.js"></script>
 </body>
 </html>
