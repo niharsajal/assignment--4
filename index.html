@@ -11,6 +11,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <style>
         body{
             font-family: "Geist", sans-serif;
@@ -53,7 +57,30 @@
             <button id="interview" class="">Interview</button>
             <button id="Rejected" class="">Rejected</button>
         </div>
-
+        <!-- card list -->
+        <div class="mt-5 flex flex-col gap-5">
+            <div class="flex flex-col gap-4 p-5 bg-white shadow-sm ">
+                <div class="flex justify-between items-center">
+                    <div>
+                    <h2 class="text-2xl text-[#002C5C] font-semibold">Mobile First Corp</h2>
+                     <p>React Native Developer</p>
+                    </div>
+                    <button>
+                        <i class="fa-regular fa-trash-can"></i>
+                    </button>
+                </div>
+                <ul class="list-disc flex gap-10 text-[#64748B]">
+                    <li class="list-none">Remote</li>
+                    <li>Full-time</li>
+                    <li>$130,000 - $175,000</li>
+                </ul>
+                <p>Not Applied</p>
+                <div class="flex gap-3">
+                    <button class="px-5 py-2 border border-[#10B981] text-[#10B981] font-semibold rounded-md">interview</button>
+                    <button class="px-5 py-2 border border-[#EF4444] text-[#EF4444] font-semibold rounded-md">Rejected</button>
+                </div>
+            </div>
+        </div>
      </div>
     
 </body>
